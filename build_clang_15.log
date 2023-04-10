@@ -1,0 +1,200 @@
+name: Status
+display_name: Status
+name: Coordinate
+display_name: Coordinate
+name: rectangle
+display_name: rectangle
+name: Data
+display_name: Data
+name: number
+display_name: number
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `C:/cargo_target_dir\debug\clang_bug.exe`
+[src\main.rs:11] tu.get_entity().get_children() = [
+    Entity {
+        kind: EnumDecl,
+        display_name: None,
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 2,
+                column: 9,
+                offset: 23,
+            },
+        ),
+    },
+    Entity {
+        kind: TypedefDecl,
+        display_name: Some(
+            "Status",
+        ),
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 6,
+                column: 3,
+                offset: 68,
+            },
+        ),
+    },
+    Entity {
+        kind: EnumDecl,
+        display_name: None,
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 9,
+                column: 1,
+                offset: 96,
+            },
+        ),
+    },
+    Entity {
+        kind: StructDecl,
+        display_name: None,
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 17,
+                column: 9,
+                offset: 187,
+            },
+        ),
+    },
+    Entity {
+        kind: TypedefDecl,
+        display_name: Some(
+            "Coordinate",
+        ),
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 21,
+                column: 3,
+                offset: 224,
+            },
+        ),
+    },
+    Entity {
+        kind: StructDecl,
+        display_name: None,
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 24,
+                column: 1,
+                offset: 258,
+            },
+        ),
+    },
+    Entity {
+        kind: VarDecl,
+        display_name: Some(
+            "rectangle",
+        ),
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 28,
+                column: 3,
+                offset: 308,
+            },
+        ),
+    },
+    Entity {
+        kind: UnionDecl,
+        display_name: None,
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 31,
+                column: 9,
+                offset: 346,
+            },
+        ),
+    },
+    Entity {
+        kind: TypedefDecl,
+        display_name: Some(
+            "Data",
+        ),
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 36,
+                column: 3,
+                offset: 423,
+            },
+        ),
+    },
+    Entity {
+        kind: UnionDecl,
+        display_name: None,
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 39,
+                column: 1,
+                offset: 450,
+            },
+        ),
+    },
+    Entity {
+        kind: VarDecl,
+        display_name: Some(
+            "number",
+        ),
+        location: Some(
+            SourceLocation {
+                file: Some(
+                    File {
+                        path: "src/unnamed_items.c",
+                    },
+                ),
+                line: 43,
+                column: 3,
+                offset: 489,
+            },
+        ),
+    },
+]
